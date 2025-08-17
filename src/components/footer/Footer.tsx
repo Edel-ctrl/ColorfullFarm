@@ -7,6 +7,7 @@ import {PiFarmThin} from "react-icons/pi";
 import {motion} from "framer-motion";
 import {CiLocationOn} from "react-icons/ci";
 
+
 const Footer = () => {
 	return (
 		<>
@@ -32,11 +33,12 @@ const Footer = () => {
 						<TiSocialLinkedinCircular/>
 						<TiSocialYoutubeCircular/>
 						<TiSocialTwitterCircular/>
-						<CiLocationOn />
+						<CiLocationOn/>
 					</div>
 				</motion.div>
 			</footer>
 		</>
 	);
-};
+}
+
 export default Footer;
