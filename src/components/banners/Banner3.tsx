@@ -18,7 +18,7 @@ const Banner3 = () => {
 					style={bgStyle}
 					className="container mx-auto grid grid-cols-1 md:grid-cols-2
         space-y-6 md:space-y-0 py-14 rounded-3xl 
-        backdrop-blur-sm shadow-2xl ">
+        backdrop-blur-sm shadow-2xl   ">
 
 					{/* blank div */}
 					<div>

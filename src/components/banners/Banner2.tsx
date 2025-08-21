@@ -17,11 +17,11 @@ const Banner2 = () => {
 								initial="hidden"
 								whileInView="visible"
 								viewport={{once: true}}
-								className="text-3xl lg:text-6xl text-secondary font-bold
+								className="text-3xl lg:text-6xl text-black font-bold
                         uppercase"
 							>
 								{""}
-								Coming <span className="text-black">Soon</span>
+								Growing a <span className="text-secondary font-bold">Stronger </span>Tomorrow
 							</motion.h1>
 							<motion.p
 								variants={FadeUp(0.7)}
@@ -29,8 +29,8 @@ const Banner2 = () => {
 								whileInView="visible"
 								viewport={{once: true}}
 							>
-								We are dedicated to rescuing surplus produce from farms and delivering it to consumers
-								at a fair price.
+
+								We provide our growers with the best quality products available
 							</motion.p>
 
 							{/* Button section (Контейнер для кнопки) */}

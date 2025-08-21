@@ -32,9 +32,9 @@ const Banner = () => {
 								initial="hidden"
 								whileInView="visible"
 								viewport={{once: true}}
-								className="text-3xl lg:text-6xl text-secondary font-bold
+								className="text-3xl lg:text-6xl text-shadow-black font-bold
                 uppercase"
-							>Farm <span className="text-black">Sharing</span>
+							>Helping Growers With <span className="text-secondary">Sustainable </span>Farming
 							</motion.h1>
 							<motion.p
 								variants={FadeUp(0.7)}
